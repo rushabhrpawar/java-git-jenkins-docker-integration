@@ -2,7 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello from  Rushabh");
+        System.out.println("Hello  Rushabh");
 
 
        double b=15.45;
