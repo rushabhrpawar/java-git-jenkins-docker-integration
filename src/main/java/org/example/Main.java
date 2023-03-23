@@ -5,17 +5,5 @@ public class Main {
         System.out.println("Hello  Rushabh");
 
 
-       double b=15.45;
-
-       int a = (int)b;
-       System.out.println(b);
-
-
-
-
     }
-
-
-
-
 }
