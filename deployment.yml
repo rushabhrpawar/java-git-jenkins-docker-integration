@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: javaapp
+  labels:
+     app: data
+spec:
+ replicas: 2
+ selector:
+    matchLabels:
+       app: data
+ strategy:
+    type: RollingUpdate
+ template:
+    metadata:
+       name: mydeployment
+       labels:
+          app: data
+    spec:
+      containers:
+         - name: deployment
+           image: rushabh6132/docker-java-integration:latest
+           
